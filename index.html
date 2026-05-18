@@ -9,11 +9,13 @@
   <body>
 
     <script>
-        const AnyPress = document.createElement('h1')
-        AnyPress.textContent("Please Any Key.")
-        AnyPress.style.color = "white"
-        document.body.appendChild(AnyPress)
+        const AnyPress = document.createElement('h1');
+        
+        // 함수 형태인 ()가 아니라 = 등호를 사용해 문자열을 할당합니다.
+        AnyPress.textContent = "Please Any Key."; 
+        
+        AnyPress.style.color = "white";
+        document.body.appendChild(AnyPress);
     </script>
   </body>
-
 </html>
