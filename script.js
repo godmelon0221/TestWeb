@@ -1,4 +1,1 @@
-function call()
-{
-    alert("ㅎㅇ")
-}
+const AnyKey = document.querySelector('.AnyKey')
