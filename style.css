@@ -1,3 +1,5 @@
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+
 body {
   background-color: black;
 }
@@ -8,9 +10,10 @@ body {
   font-family: 'dot'; 
 }
 
-@font-face {
-    font-family: 'dot';
-    src: url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
-    font-weight: normal;
-    font-style: normal;
+
+.AnyKey {
+  text-align: center;
+  color: white;
+  /* 갈무리 폰트의 정식 family name인 'Galmuri9' 또는 'Galmuri11' 등을 사용해야 합니다 */
+  font-family: 'Galmuri7', sans-serif; 
 }
