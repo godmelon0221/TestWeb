@@ -5,4 +5,12 @@ body {
 .AnyKey {
   text-align: center;
   color: white;
+  font-family: 'dot'; 
+}
+
+@font-face {
+    font-family: 'dot';
+    src: url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+    font-weight: normal;
+    font-style: normal;
 }

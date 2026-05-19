@@ -11,7 +11,7 @@ const timer = setInterval(() => {
   
   // 소수점 오차 방지를 위해 fixed 처리 후 투명도 적용
   AnyKey.style.opacity = Trans.toFixed(1); 
-}, 2);
+}, 8);
 
 
 // 2. 아무 키나 눌리면 깜빡임을 멈추고 객체를 화면에서 제거하기
